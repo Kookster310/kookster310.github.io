@@ -19,6 +19,11 @@ description: >
 markdown: kramdown
 permalink: pretty
 
+# Collections
+collections:
+  categories:
+    output: true
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #

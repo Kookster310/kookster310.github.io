@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body>
+		{% include header.html %}
+		
+		<div class="container blog-container">
+			<div class="row">
+				<!-- Main Content -->
+				<div class="col-lg-8 col-md-8">
+					{{ content }}
+				</div>
+				
+				<!-- Sidebar -->
+				<div class="col-lg-4 col-md-4 sidebar">
+					<div class="sidebar-widget">
+						<h3>Navigation</h3>
+						<ul class="sidebar-nav">
+							<li><a href="/">Home</a></li>
+							<li><a href="/personal-projects/">Personal Projects</a></li>
+							<li><a href="/audio-dramas/">Audio Dramas</a></li>
+						</ul>
+					</div>
+					
+					<div class="sidebar-widget">
+						<h3>About</h3>
+						<p>{{ site.description }}</p>
+						<ul class="list-inline sidebar-social">
+							{% for social in site.social %}
+							<li>
+								<a href="{{ social.url }}" title="{{ social.title }}">
+									<i class="fa fa-{{ social.title }}"></i>
+								</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+					
+					<div class="sidebar-widget">
+						<h3>Recent Posts</h3>
+						<ul class="recent-posts">
+							{% for post in site.posts limit:5 %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+								<small>{{ post.date | date: "%B %d, %Y" }}</small>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		{% include footer.html %}
+		{% include js.html %}
+	</body>
+</html>
+
