@@ -37,7 +37,7 @@ Posts will automatically appear on the homepage and in their respective category
 - `_layouts/blog.html` - Main blog layout with sidebar
 - `_layouts/post.html` - Individual post layout
 - `_layouts/category.html` - Category page layout
-- `personal-projects/` - Projects category page
+- `projects/` - Projects category page
 - `audio-dramas/` - Audio Dramas category page
 - `thoughts/` - Thoughts category page
 - `_posts/` - All blog posts
