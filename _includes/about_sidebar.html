@@ -1,0 +1,22 @@
+<div class="sidebar-widget about-widget">
+	<div class="profile-picture">
+		<img src="/img/tokyo-resize.jpg" alt="Daniel Ryan" class="profile-img">
+	</div>
+	<h3>About</h3>
+	<p>Hello! My name is Daniel and I am a NET.DEV.OPS Engineer that enjoys automating and making things!</p>
+	<p>I've always been a nerd at heart. I grew up in the Southbay of Los Angeles, spent some time up in Northern California, then made my way back down to SoCal. I've now been living in Las Vegas, Nevada for the past year and survived my first summer. I've always enjoyed things re: tech. I have a 3D printer that I built and love tinkering with. This along with the many Raspberry Pis, Odroids, and servers I play with give me ample opportunity to learn new things.</p>
+	<p>I spent the last 7 years working in the tech industry. I have experience working and running an Operations Center, along with hands on Linux, Unix, Development, Cloud Infrastructure, and Networking experience. I've worked in startup environments requiring many hats, and in more corporate environments with more defined roles.</p>
+	<p>I also enjoy the great universe that is Star Trek. If you ever want to get a Roll20 Star Trek Adventures game going, just let me know :D</p>
+	<div class="sidebar-social-container">
+		<ul class="list-inline sidebar-social">
+			{% for social in site.social %}
+			<li>
+				<a href="{{ social.url }}" title="{{ social.title }}">
+					<i class="fa fa-{{ social.title }}"></i>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+
