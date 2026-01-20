@@ -338,9 +338,20 @@ body {
     text-decoration: none;
 }
 
-.recent-posts small {
+.recent-post-meta {
+    display: block;
     color: #999;
     font-size: 0.85em;
+    margin-top: 5px;
+}
+
+.recent-post-date {
+    margin-right: 8px;
+}
+
+.recent-post-category {
+    color: #337ab7;
+    font-weight: 500;
 }
 
 /* Category Header */
