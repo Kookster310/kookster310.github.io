@@ -1,7 +1,7 @@
 ---
 layout: post
 img: mining.png 
-category: Personal Projects
+category: Projects
 title: Crypto Mining - The New-Age 49er
 ---
 Mining crypto coins (specifically Monero) utilizing XMR-Stak. Able to mine on Linux and Windows OS.

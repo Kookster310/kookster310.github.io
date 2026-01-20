@@ -1,7 +1,7 @@
 ---
 layout: post
 img: pi-hole.png
-category: Personal Projects
+category: Projects
 title: PiHole - Home DNS Server
 ---
 With all the gadgets and toys around, I wanted to get more insight into what is going on within my network

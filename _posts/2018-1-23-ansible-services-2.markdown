@@ -1,7 +1,7 @@
 ---
 layout: post
 img: ansible-example.gif
-category: Personal Projects
+category: Projects
 title: Ansible Deployments - Automate Everything
 ---
 Deploying full Unix and Linux nodes, used for a variety of projects, automatically using Ansible.

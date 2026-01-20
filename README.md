@@ -5,7 +5,7 @@ A modern blog-style Jekyll website for www.310networks.com with sidebar navigati
 ## Features
 
 - **Blog-style layout** - Easy to update with markdown posts
-- **Sidebar navigation** - Quick access to Personal Projects and Audio Dramas
+- **Sidebar navigation** - Quick access to Projects, Audio Dramas, and Thoughts
 - **Category filtering** - Posts organized by category
 - **Responsive design** - Works on all devices
 
@@ -16,7 +16,7 @@ Create a new markdown file in the `_posts/` directory with the following format:
 ```markdown
 ---
 layout: post
-category: Personal Projects
+category: Projects
 title: Your Post Title
 date: 2024-01-15
 ---
@@ -26,8 +26,9 @@ Your post content goes here. You can use markdown formatting.
 ### Categories
 
 Posts can be categorized as:
-- **Personal Projects** - Technical projects, experiments, and builds
+- **Projects** - Technical projects, experiments, and builds
 - **Audio Dramas** - Reviews, recommendations, and thoughts on audio dramas
+- **Thoughts** - Random thoughts, musings, and reflections
 
 Posts will automatically appear on the homepage and in their respective category pages.
 
@@ -36,8 +37,9 @@ Posts will automatically appear on the homepage and in their respective category
 - `_layouts/blog.html` - Main blog layout with sidebar
 - `_layouts/post.html` - Individual post layout
 - `_layouts/category.html` - Category page layout
-- `personal-projects/` - Personal Projects category page
+- `personal-projects/` - Projects category page
 - `audio-dramas/` - Audio Dramas category page
+- `thoughts/` - Thoughts category page
 - `_posts/` - All blog posts
 
 ## Check Out The Website
