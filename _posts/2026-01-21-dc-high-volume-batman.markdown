@@ -1,8 +1,8 @@
 ---
 layout: post
 category: Audio Dramas
-title: [DC High Volume: Batman] - Review
-date: 2026-02-21
+title: DC High Volume: Batman - Review
+date: 2026-01-21
 ---
 
 ## Overview
