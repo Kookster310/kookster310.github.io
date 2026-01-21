@@ -578,6 +578,23 @@ a:hover {
     .sidebar-right {
         padding: 0;
     }
+
+    .blog-container .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar-right {
+        order: -1;
+    }
+
+    .main-content {
+        order: 0;
+    }
+
+    .sidebar-left {
+        order: 1;
+    }
     
     .main-content {
         padding: 0;
