@@ -12,7 +12,7 @@
 					<div class="sidebar-widget">
 						<h3>Recent Posts</h3>
 						<ul class="recent-posts">
-							{% assign filtered_posts = site.posts | where_exp: "post", "post.category != 'Audio Dramas'" %}
+							{% assign filtered_posts = site.posts | where_exp: "post", "post.category != 'Audio Dramas' and post.categories contains 'Audio Dramas' == false" %}
 							{% for post in filtered_posts limit:5 %}
 							<li>
 								<a href="{{ post.url }}">{{ post.title }}</a>
