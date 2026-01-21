@@ -5,7 +5,26 @@
 	<h3>About</h3>
 	<p>Hello! My name is Daniel. I'm a husband and father who likes to build and tinker.</p>
 	<p>I love sports and sci-fi. I grew up in the Southbay of Los Angeles and now live on the Big Island of Hawaii. With a few other places in between.</p>
-	<p>I have been working in the tech industry for over 13 years.</p>
-
+	<p>I have been working in the tech industry for over 13 years. yay.</p>
+	<div class="sidebar-social-container">
+		<ul class="list-inline sidebar-social">
+			{% for social in site.social %}
+			<li>
+				<a href="{{ social.url }}" title="{{ social.title }}">
+					{% if social.title == 'email' %}
+						<i class="fa fa-envelope"></i>
+					{% elsif social.title == 'github' %}
+						<i class="fa fa-github"></i>
+					{% elsif social.title == 'linkedin' %}
+						<i class="fa fa-linkedin"></i>
+					{% elsif social.title == 'resume' %}
+						<i class="fa fa-file-alt"></i>
+					{% else %}
+						<i class="fa fa-{{ social.title }}"></i>
+					{% endif %}
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
 </div>
-
