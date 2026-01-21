@@ -14,9 +14,19 @@ theme:
 
 nav:
   - Home: index.md
-  - Projects: projects/index.md
-  - Audio Dramas: audio-dramas/index.md
-  - Thoughts: thoughts/index.md
+  - Projects:
+      - Overview: projects/index.md
+      - 3D Printing: projects/3d-printing.md
+      - Crypto Mining - The New-Age 49er: projects/crypto-mining-new-age-49er.md
+      - DN42 - A Big Dynamic VPN: projects/dn42-big-dynamic-vpn.md
+      - Ansible Deployments - Automate Everything: projects/ansible-deployments.md
+      - PiHole - Home DNS Server for Ad Blocking and Traffic Analysis: projects/pi-hole-home-dns.md
+  - Audio Dramas:
+      - Overview: audio-dramas/index.md
+      - DC High Volume: Batman - Review: audio-dramas/dc-high-volume-batman.md
+  - Thoughts:
+      - Overview: thoughts/index.md
+      - Fresh year, fresh thoughts: thoughts/fresh-year-fresh-thoughts.md
 
 extra:
   social:
