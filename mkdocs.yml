@@ -23,7 +23,7 @@ nav:
       - PiHole - Home DNS Server for Ad Blocking and Traffic Analysis: projects/pi-hole-home-dns.md
   - Audio Dramas:
       - Overview: audio-dramas/index.md
-      - DC High Volume: Batman - Review: audio-dramas/dc-high-volume-batman.md
+      - "DC High Volume: Batman - Review": audio-dramas/dc-high-volume-batman.md
   - Thoughts:
       - Overview: thoughts/index.md
       - Fresh year, fresh thoughts: thoughts/fresh-year-fresh-thoughts.md
