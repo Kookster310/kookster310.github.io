@@ -10,15 +10,6 @@
 				<!-- Left Sidebar -->
 				<div class="col-lg-2 col-md-3 sidebar sidebar-left">
 					<div class="sidebar-widget">
-						<ul class="sidebar-nav">
-							<li><a href="/">Home</a></li>
-							<li><a href="/projects/">Projects</a></li>
-							<li><a href="/audio-dramas/">Audio Dramas</a></li>
-							<li><a href="/thoughts/">Thoughts</a></li>
-						</ul>
-					</div>
-					
-					<div class="sidebar-widget">
 						<h3>Recent Posts</h3>
 						<ul class="recent-posts">
 							{% assign filtered_posts = site.posts | where_exp: "post", "post.category != 'Audio Dramas'" %}

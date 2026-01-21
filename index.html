@@ -2,7 +2,8 @@
 layout: blog
 ---
 <div class="latest-post">
-	{% assign latest_post = site.posts.first %}
+	{% assign filtered_posts = site.posts | where_exp: "post", "post.category != 'Audio Dramas'" %}
+	{% assign latest_post = filtered_posts.first %}
 	{% if latest_post %}
 	<article class="blog-post latest-post-full">
 		<header class="post-header">
