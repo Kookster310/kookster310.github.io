@@ -1,0 +1,13 @@
+.md-sidebar--primary,
+.md-sidebar--secondary {
+  display: none;
+}
+
+.md-main__inner {
+  margin: 0;
+}
+
+.md-content {
+  max-width: 900px;
+  margin: 0 auto;
+}

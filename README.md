@@ -1,50 +1,36 @@
 # 310 Networks Website
 
-A modern blog-style Jekyll website for www.310networks.com with sidebar navigation and category filtering.
-
-## Features
-
-- **Blog-style layout** - Easy to update with markdown posts
-- **Sidebar navigation** - Quick access to Projects, Audio Dramas, and Thoughts
-- **Category filtering** - Posts organized by category
-- **Responsive design** - Works on all devices
+This site is built with **MkDocs + Material** and deployed to GitHub Pages via GitHub Actions.
 
 ## Adding New Posts
 
-Create a new markdown file in the `_posts/` directory with the following format:
+Create a new Markdown file in the appropriate section:
 
-```markdown
----
-layout: post
-category: Projects
-title: Your Post Title
-date: 2024-01-15
----
-Your post content goes here. You can use markdown formatting.
+- `docs/projects/` for project posts
+- `docs/audio-dramas/` for audio drama reviews
+- `docs/thoughts/` for thoughts
+
+Then add a link to the new post on the corresponding index page:
+
+- `docs/index.md` (home page, excludes Audio Dramas)
+- `docs/projects/index.md`
+- `docs/audio-dramas/index.md`
+- `docs/thoughts/index.md`
+
+## Local Preview
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
 ```
-
-### Categories
-
-Posts can be categorized as:
-- **Projects** - Technical projects, experiments, and builds
-- **Audio Dramas** - Reviews, recommendations, and thoughts on audio dramas
-- **Thoughts** - Random thoughts, musings, and reflections
-
-Posts will automatically appear on the homepage and in their respective category pages.
 
 ## Structure
 
-- `_layouts/blog.html` - Main blog layout with sidebar
-- `_layouts/post.html` - Individual post layout
-- `_layouts/category.html` - Category page layout
-- `projects/` - Projects category page
-- `audio-dramas/` - Audio Dramas category page
-- `thoughts/` - Thoughts category page
-- `_posts/` - All blog posts
+- `mkdocs.yml` - Site configuration and navigation
+- `docs/` - All site content
+- `docs/assets/` - Images and custom CSS
+- `.github/workflows/mkdocs.yml` - GitHub Pages deploy workflow
 
-## Check Out The Website
-You can visit my website [here](http://www.310networks.com) 
+## Live Site
 
-===
-
-For more Jekyll details, read [documentation](http://jekyllrb.com/).
+You can visit the site at https://www.310networks.com

@@ -1,0 +1,36 @@
+site_name: Daniel Ryan
+site_url: https://www.310networks.com
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+
+nav:
+  - Home: index.md
+  - Projects: projects/index.md
+  - Audio Dramas: audio-dramas/index.md
+  - Thoughts: thoughts/index.md
+
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:daniel.ryan@310networks.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/Kookster310/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/daniel-ryan-310/
+    - icon: fontawesome/solid/file
+      link: https://docs.google.com/document/d/1m-ODLGnpdVB58fdDJEOuEKJokZ56wulxvQAMZNaTwjI
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
