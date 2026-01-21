@@ -259,6 +259,8 @@ body {
     padding: 4px;
     background-color: #fff;
     object-fit: cover;
+    object-position: center;
+    transform: scale(0.9);
     display: block;
     margin: 0 auto 20px auto;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -412,6 +414,7 @@ body {
     .profile-img {
         width: 120px;
         height: 120px;
+        transform: scale(0.9);
     }
 }
 
@@ -454,6 +457,7 @@ body {
     .profile-img {
         width: 100px;
         height: 100px;
+        transform: scale(0.9);
     }
     
     .sidebar-widget {
