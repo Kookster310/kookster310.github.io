@@ -23,7 +23,7 @@ layout: blog
 			{% endif %}
 		</div>
 		<div class="post-excerpt">
-			{{ post.excerpt | default: post.content | strip_html | truncatewords: 50 }}
+			{{ post.excerpt | default: post.content | strip_html | truncate: 255 }}
 		</div>
 		<a href="{{ post.url }}" class="btn btn-primary btn-sm">Read More</a>
 	</article>
