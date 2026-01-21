@@ -239,10 +239,15 @@ body {
     padding: 20px;
     background-color: #f8f8f8;
     border-radius: 4px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .sidebar-widget.about-widget {
     margin-top: 0;
+    overflow: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 /* Profile Picture */
@@ -266,14 +271,14 @@ body {
 }
 
 .profile-img {
-    width: 120%;
-    height: 120%;
+    width: 180%;
+    height: 180%;
     object-fit: cover;
     object-position: center;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.7);
 }
 
 .sidebar-widget h3 {
