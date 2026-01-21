@@ -12,8 +12,9 @@
 					<div class="sidebar-widget">
 						<h3>Recent Posts</h3>
 						<ul class="recent-posts">
-							{% assign filtered_posts = site.posts | where_exp: "post", "post.category != 'Audio Dramas' and post.categories contains 'Audio Dramas' == false" %}
-							{% for post in filtered_posts limit:5 %}
+							{% assign recent_posts_count = 0 %}
+							{% for post in site.posts %}
+							{% unless post.category == "Audio Dramas" or post.categories contains "Audio Dramas" %}
 							<li>
 								<a href="{{ post.url }}">{{ post.title }}</a>
 								<small class="recent-post-meta">
@@ -23,6 +24,11 @@
 									{% endif %}
 								</small>
 							</li>
+							{% assign recent_posts_count = recent_posts_count | plus: 1 %}
+							{% if recent_posts_count >= 5 %}
+								{% break %}
+							{% endif %}
+							{% endunless %}
 							{% endfor %}
 						</ul>
 					</div>

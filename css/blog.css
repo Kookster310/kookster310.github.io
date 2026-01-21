@@ -366,14 +366,14 @@ a:hover {
 }
 
 .profile-img {
-    width: 180%;
-    height: 180%;
+    width: 120%;
+    height: 120%;
     object-fit: cover;
     object-position: center;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.7);
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .sidebar-widget h3 {

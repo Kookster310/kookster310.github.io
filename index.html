@@ -2,8 +2,13 @@
 layout: blog
 ---
 <div class="latest-post">
-	{% assign filtered_posts = site.posts | where_exp: "post", "post.category != 'Audio Dramas' and post.categories contains 'Audio Dramas' == false" %}
-	{% assign latest_post = filtered_posts.first %}
+	{% assign latest_post = nil %}
+	{% for post in site.posts %}
+		{% unless post.category == "Audio Dramas" or post.categories contains "Audio Dramas" %}
+			{% assign latest_post = post %}
+			{% break %}
+		{% endunless %}
+	{% endfor %}
 	{% if latest_post %}
 	<article class="blog-post latest-post-full">
 		<header class="post-header">
