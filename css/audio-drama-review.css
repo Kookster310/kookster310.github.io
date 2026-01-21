@@ -1,0 +1,91 @@
+/* Audio Drama Review Styles - Dark Mode */
+
+.review-criteria {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #2d2d2d;
+    border-left: 4px solid #5dade2;
+    border-radius: 4px;
+}
+
+.review-criteria h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+    font-size: 1.3em;
+}
+
+.review-criteria p {
+    color: #ccc;
+}
+
+.review-score {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #5dade2;
+    margin-left: 10px;
+}
+
+.review-score-label {
+    font-weight: 600;
+    color: #bbb;
+}
+
+.final-score {
+    margin: 40px 0;
+    padding: 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+}
+
+.final-score-label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.final-score-value {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.review-overview {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #2a3a4a;
+    border-radius: 4px;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #e0e0e0;
+}
+
+.review-notes {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #3a2a1a;
+    border-left: 4px solid #f39c12;
+    border-radius: 4px;
+    font-style: italic;
+    color: #e0e0e0;
+}
+
+.review-notes h4 {
+    color: #f39c12;
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    .final-score-value {
+        font-size: 2.5em;
+    }
+    
+    .review-score {
+        font-size: 1.2em;
+    }
+}
+
