@@ -50,7 +50,7 @@ body {
 
 /* Main Content */
 .main-content {
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 /* Blog Header - for category pages */
@@ -223,15 +223,15 @@ body {
 
 /* Sidebar */
 .sidebar {
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .sidebar-left {
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .sidebar-right {
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .sidebar-widget {
