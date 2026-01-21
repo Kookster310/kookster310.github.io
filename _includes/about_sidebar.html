@@ -12,7 +12,7 @@
 		<ul class="list-inline sidebar-social">
 			{% for social in site.social %}
 			<li>
-				<a href="{{ social.url }}" title="{{ social.title }}">
+				<a href="{{ social.url }}" title="{{ social.title }}" class="social-link social-{{ social.title }}">
 					{% if social.title == 'email' %}
 						<i class="fa fa-envelope"></i>
 					{% elsif social.title == 'github' %}

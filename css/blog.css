@@ -433,13 +433,51 @@ a:hover {
     background-color: #5dade2;
     color: #1a1a1a;
     border-radius: 50%;
-    transition: background-color 0.3s;
+    transition: all 0.3s;
 }
 
 .sidebar-social a:hover {
     background-color: #3498db;
     color: #1a1a1a;
     text-decoration: none;
+    transform: scale(1.1);
+}
+
+/* Brand-specific social icon colors */
+.sidebar-social a.social-email {
+    background-color: #5dade2;
+}
+
+.sidebar-social a.social-email:hover {
+    background-color: #3498db;
+}
+
+.sidebar-social a.social-github {
+    background-color: #333;
+    color: #fff;
+}
+
+.sidebar-social a.social-github:hover {
+    background-color: #24292e;
+    color: #fff;
+}
+
+.sidebar-social a.social-linkedin {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.sidebar-social a.social-linkedin:hover {
+    background-color: #005885;
+    color: #fff;
+}
+
+.sidebar-social a.social-resume {
+    background-color: #5dade2;
+}
+
+.sidebar-social a.social-resume:hover {
+    background-color: #3498db;
 }
 
 .recent-posts {

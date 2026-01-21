@@ -41,7 +41,6 @@ date: YYYY-MM-DD
 <div class="final-score">
 <div class="final-score-label">Final Score</div>
 <div class="final-score-value">[X.X]/10</div>
-<p style="margin-top: 15px; opacity: 0.9;">[Brief summary or weighted average explanation]</p>
 </div>
 
 <div class="review-notes">
