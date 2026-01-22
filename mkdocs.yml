@@ -3,6 +3,7 @@ site_url: https://www.310networks.com
 
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
     scheme: slate
     primary: blue
@@ -44,3 +45,6 @@ extra_css:
 
 plugins:
   - search
+
+hooks:
+  - hooks.py

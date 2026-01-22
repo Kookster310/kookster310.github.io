@@ -1,6 +1,9 @@
-# Crypto Mining - The New-Age 49er
+---
+title: Crypto Mining - The New-Age 49er
+date: 2018-01-25
+---
 
-**Date:** January 25, 2018
+# Crypto Mining - The New-Age 49er
 
 ![Crypto mining](../assets/img/services/mining.png)
 

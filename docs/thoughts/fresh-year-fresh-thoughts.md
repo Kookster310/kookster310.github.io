@@ -1,6 +1,9 @@
-# Fresh year, fresh thoughts
+---
+title: Fresh year, fresh thoughts
+date: 2026-01-21
+---
 
-**Date:** January 21, 2026
+# Fresh year, fresh thoughts
 
 2025 just ended and we're going into 2026. Cool.
 

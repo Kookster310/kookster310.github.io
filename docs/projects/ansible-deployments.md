@@ -1,6 +1,9 @@
-# Ansible Deployments - Automate Everything
+---
+title: Ansible Deployments - Automate Everything
+date: 2018-01-23
+---
 
-**Date:** January 23, 2018
+# Ansible Deployments - Automate Everything
 
 ![Ansible example](../assets/img/services/ansible-example.gif)
 

@@ -1,6 +1,9 @@
-# DN42 - A Big Dynamic VPN
+---
+title: DN42 - A Big Dynamic VPN
+date: 2018-01-24
+---
 
-**Date:** January 24, 2018
+# DN42 - A Big Dynamic VPN
 
 ![BGP](../assets/img/services/bgp.jpg)
 

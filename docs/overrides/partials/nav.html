@@ -1,0 +1,12 @@
+<div class="custom-sidebar">
+  <h3>Recent Posts</h3>
+  <ul class="custom-recent-posts">
+    {% for post in config.extra.recent_posts %}
+    <li>
+      <a href="{{ post.url | url }}">{{ post.title }}</a>
+      <small>{{ post.date_display }}</small>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+

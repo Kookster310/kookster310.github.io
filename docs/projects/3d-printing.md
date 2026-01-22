@@ -1,6 +1,9 @@
-# 3D Printing
+---
+title: 3D Printing
+date: 2018-01-26
+---
 
-**Date:** January 26, 2018
+# 3D Printing
 
 ![3D printer](../assets/img/services/3dprinter.jpg)
 

@@ -1,6 +1,9 @@
-# PiHole - Home DNS Server for Ad Blocking and Traffic Analysis
+---
+title: PiHole - Home DNS Server for Ad Blocking and Traffic Analysis
+date: 2018-01-20
+---
 
-**Date:** January 20, 2018
+# PiHole - Home DNS Server for Ad Blocking and Traffic Analysis
 
 ![Pi-hole](../assets/img/services/pi-hole.png)
 
