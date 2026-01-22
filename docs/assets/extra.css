@@ -21,14 +21,14 @@
 
 .md-header__title::after {
   content: "tinkering kook";
-  display: block;
+  display: inline;
   font-size: 0.8rem;
   color: #555;
-  margin-top: 2px;
-  margin-left: 0;
+  margin-left: 12px;
   padding: 0;
   pointer-events: none;
   line-height: 1.2;
+  vertical-align: baseline;
 }
 
 .md-header__inner {
