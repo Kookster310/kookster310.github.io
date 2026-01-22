@@ -1,6 +1,16 @@
 # Daniel Ryan
 
-Hello! My name is Daniel. I'm a husband and father who likes to build and tinker. I love sports and sci-fi, and I also enjoy cooking. I grew up in the Southbay of Los Angeles and now live on the Big Island of Hawaii.
+<div class="home-hero">
+  <div class="home-hero-profile">
+    <img src="assets/img/tokyo-resize.jpg" alt="Daniel Ryan" class="home-hero-image">
+  </div>
+  <div class="home-hero-text">
+    <p>Hello! My name is Daniel. I'm a husband and father who likes to build and tinker.</p>
+    <p>I love sports and sci-fi. I also have really grown to like cooking.</p>
+    <p>I grew up in the Southbay of Los Angeles and now live on the Big Island of Hawaii.</p>
+    <p>I have been working in the tech industry for over 13 years. yay.</p>
+  </div>
+</div>
 
 ## Recent Posts
 
