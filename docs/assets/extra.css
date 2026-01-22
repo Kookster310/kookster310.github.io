@@ -2,6 +2,23 @@
   display: none;
 }
 
+.md-header__button.md-logo {
+  display: none;
+}
+
+.md-header__title {
+  margin-left: 0;
+}
+
+.md-header__title::after {
+  content: "tinkering kook";
+  display: block;
+  font-size: 0.75rem;
+  color: #999;
+  line-height: 1.2;
+  margin-top: 2px;
+}
+
 .md-main__inner {
   gap: 32px;
 }
@@ -11,7 +28,8 @@
 }
 
 .custom-sidebar {
-  font-size: 1.25em;
+  font-size: 1.35em;
+  line-height: 1.6;
   background: #1f1f1f;
   border-radius: 8px;
   padding: 18px;
@@ -71,6 +89,7 @@
   object-fit: cover;
   border: 4px solid #5dade2;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  margin-top: 8px;
   margin-bottom: 14px;
 }
 
