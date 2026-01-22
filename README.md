@@ -24,6 +24,13 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
+## Local Build
+
+```bash
+pip install -r requirements.txt
+mkdocs build
+```
+
 ## Structure
 
 - `mkdocs.yml` - Site configuration and navigation
