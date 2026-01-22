@@ -1,3 +1,3 @@
-# Daniel Ryan
+# Latest Post
 
 {{ latest_post }}

@@ -10,13 +10,39 @@
   margin-left: 0;
 }
 
+.md-header__title {
+  font-size: 1.15rem;
+  overflow: visible;
+  margin-right: 24px;
+  padding-bottom: 0;
+  line-height: 1.2;
+  position: relative;
+}
+
 .md-header__title::after {
   content: "tinkering kook";
   display: block;
-  font-size: 0.75rem;
-  color: #999;
-  line-height: 1.2;
+  font-size: 0.8rem;
+  color: #555;
   margin-top: 2px;
+  margin-left: 0;
+  padding: 0;
+  pointer-events: none;
+  line-height: 1.2;
+}
+
+.md-header__inner {
+  padding-top: 0x;
+  padding-bottom: 8px;
+}
+
+.md-header__topic:first-child {
+  font-weight: 600;
+  padding-top: 24px;
+}
+
+.md-header__option {
+  padding-top: 24px;
 }
 
 .md-main__inner {
