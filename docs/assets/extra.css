@@ -11,7 +11,7 @@
 }
 
 .md-header__title {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   overflow: visible;
   margin-right: 0;
   padding-bottom: 0;
@@ -27,6 +27,39 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.md-tabs {
+  max-width: none;
+  margin: 0;
+  width: 100%;
+}
+
+.md-tabs__inner {
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.md-search {
+  padding-top: 1.4rem;
+  position: absolute;
+  right: 16px;
+}
+
+@media (max-width: 1219px) {
+  .md-search {
+    position: relative;
+    right: 0;
+    margin-right: 0;
+  }
 }
 
 .md-header__topic:first-child {
@@ -67,12 +100,37 @@
   padding-top: 1.4rem;
 }
 
+.md-grid {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
 .md-main__inner {
   gap: 32px;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .md-content {
   max-width: 100%;
+  flex: 1 1 auto;
+}
+
+.md-sidebar {
+  flex-shrink: 0;
+}
+
+.md-sidebar--primary {
+  width: 16rem;
+  margin-left: 0;
+}
+
+.md-sidebar--secondary {
+  width: 16rem;
+  margin-right: 0;
 }
 
 .custom-sidebar {
@@ -180,81 +238,83 @@
     visibility: visible !important;
   }
   
-  /* Fix mobile navigation drawer */
+  /* Hide hamburger menu button - all possible selectors */
+  .md-header__button.md-icon,
+  .md-header__button--menu,
+  .md-header__button[for="__drawer"],
+  .md-header__button[aria-label="Open navigation drawer"],
+  label.md-header__button {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+  
+  /* Ensure title has left padding when hamburger is removed */
+  .md-header__title {
+    margin-left: 12px !important;
+  }
+  
+  /* Hide navigation drawer completely */
   .md-nav__drawer {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
+    display: none !important;
   }
   
-  .md-nav--primary {
-    display: block !important;
-    visibility: visible !important;
-  }
-  
-  .md-nav--primary .md-nav__list {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    position: relative !important;
-  }
-  
-  .md-nav__item {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-  
-  .md-nav__link {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-  
-  .md-nav__title {
-    display: block !important;
-    visibility: visible !important;
-  }
-  
-  /* Ensure drawer is visible when open */
-  .md-nav[data-md-state="open"] {
-    display: block !important;
-    visibility: visible !important;
-  }
-  
-  .md-nav[data-md-state="open"] .md-nav__list {
-    display: block !important;
-    visibility: visible !important;
-  }
-  
-  /* Fix drawer overlay */
   .md-overlay {
-    z-index: 2 !important;
+    display: none !important;
   }
   
-  .md-nav__drawer {
-    z-index: 3 !important;
-  }
-  
-  /* Ensure tabs navigation is visible in mobile drawer */
+  /* Show tabs navigation horizontally under header */
   .md-tabs {
     display: block !important;
     visibility: visible !important;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    position: relative;
+  }
+  
+  /* Add fade effect on right edge to indicate scrollability */
+  .md-tabs::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    background: linear-gradient(to right, transparent, rgba(33, 150, 243, 0.5));
+    pointer-events: none;
   }
   
   .md-tabs__list {
-    display: block !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
     visibility: visible !important;
+    margin: 0;
+    padding: 0 12px;
+    gap: 2px;
   }
   
   .md-tabs__item {
-    display: block !important;
+    display: inline-block !important;
+    flex-shrink: 0 !important;
     visibility: visible !important;
+    margin: 0;
   }
   
   .md-tabs__link {
     display: block !important;
     visibility: visible !important;
+    padding: 8px 14px;
+    white-space: nowrap;
+    font-size: 0.85rem;
+    margin: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .md-tabs__item:last-child .md-tabs__link {
+    border-right: none;
   }
 }
 
