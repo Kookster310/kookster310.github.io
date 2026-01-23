@@ -1,4 +1,5 @@
 import os
+import re
 from datetime import datetime
 
 import yaml
@@ -64,10 +65,16 @@ def on_page_markdown(markdown, page, config, files):
     latest = config.extra.get("latest_post")
     if not latest:
         return markdown.replace(POST_PLACEHOLDER, "_No posts yet._")
+    
+    # Remove the first heading (H1 or H2) from the post content
+    content = latest['content'].rstrip()
+    # Remove leading heading markers (# or ##) followed by title and newline
+    content = re.sub(r'^#+\s+.*?\n\n?', '', content, count=1, flags=re.MULTILINE)
+    
     latest_markdown = (
         f"## {latest['title']}\n\n"
         f"**Date:** {latest['date_display']}\n\n"
-        f"{latest['content'].rstrip()}\n"
+        f"{content}\n"
     )
     return markdown.replace(POST_PLACEHOLDER, latest_markdown)
 

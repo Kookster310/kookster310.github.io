@@ -18,32 +18,41 @@
   line-height: 1.2;
   position: relative;
   display: inline;
-}
-
-.md-header__title::after {
-  content: "tinkering kook";
-  display: inline;
-  font-size: 0.8rem;
-  color: #555;
-  margin-left: 12px;
-  padding: 0;
-  pointer-events: none;
-  line-height: 1.2;
-  vertical-align: baseline;
   white-space: nowrap;
 }
 
 .md-header__inner {
   padding-top: 0x;
   padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .md-header__topic:first-child {
   font-weight: 600;
   padding-top: 1.4rem;
-  display: flex;
+  display: inline-flex;
   align-items: baseline;
-  gap: 12px;
+  gap: 10px;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  flex: 0 0 auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.md-header__topic:first-child::after {
+  content: "tinkering kook";
+  display: inline;
+  font-size: 0.65rem;
+  color: #aaa;
+  padding: 0;
+  pointer-events: none;
+  line-height: 1.2;
+  vertical-align: baseline;
+  font-weight: 400;
+  white-space: nowrap;
 }
 
 .md-header__option {
