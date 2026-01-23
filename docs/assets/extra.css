@@ -157,9 +157,104 @@
   }
 }
 
+/* Keep header topic always visible (not replaced by page title) */
+.md-header__topic:first-child {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.md-header__topic:not(:first-child) {
+  display: none !important;
+}
+
 @media (max-width: 960px) {
   .md-sidebar--primary {
     display: none;
+  }
+  
+  /* Keep site name visible in mobile header instead of page title */
+  .md-header__topic:first-child {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Fix mobile navigation drawer */
+  .md-nav__drawer {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  .md-nav--primary {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  .md-nav--primary .md-nav__list {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+  }
+  
+  .md-nav__item {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  .md-nav__link {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  .md-nav__title {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  /* Ensure drawer is visible when open */
+  .md-nav[data-md-state="open"] {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  .md-nav[data-md-state="open"] .md-nav__list {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  /* Fix drawer overlay */
+  .md-overlay {
+    z-index: 2 !important;
+  }
+  
+  .md-nav__drawer {
+    z-index: 3 !important;
+  }
+  
+  /* Ensure tabs navigation is visible in mobile drawer */
+  .md-tabs {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  .md-tabs__list {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  .md-tabs__item {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  .md-tabs__link {
+    display: block !important;
+    visibility: visible !important;
   }
 }
 
