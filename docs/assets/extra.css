@@ -13,10 +13,11 @@
 .md-header__title {
   font-size: 1.15rem;
   overflow: visible;
-  margin-right: 24px;
+  margin-right: 0;
   padding-bottom: 0;
   line-height: 1.2;
   position: relative;
+  display: inline;
 }
 
 .md-header__title::after {
@@ -29,6 +30,7 @@
   pointer-events: none;
   line-height: 1.2;
   vertical-align: baseline;
+  white-space: nowrap;
 }
 
 .md-header__inner {
@@ -39,6 +41,9 @@
 .md-header__topic:first-child {
   font-weight: 600;
   padding-top: 1.4rem;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
 }
 
 .md-header__option {
