@@ -1,14 +1,7 @@
 # Bits
 
-Random thoughts, observations, and quick notes.
-
 <div class="bits-entry">
-<div class="bits-date">**January 21, 2026**</div>
-<div class="bits-content">Just a quick note about something I'm thinking about.</div>
-</div>
-
-<div class="bits-entry">
-<div class="bits-date">**January 20, 2026**</div>
-<div class="bits-content">Another brief thought or observation here.</div>
+<div class="bits-date">01.22.2026</div>
+<div class="bits-content">I wonder how many people that want a salary cap in baseball would be against one in the real world. If a system in sports in unfair, why not take that same energy to the real world?</div>
 </div>
 
