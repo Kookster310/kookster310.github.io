@@ -28,6 +28,7 @@ nav:
   - Thoughts:
       - Overview: thoughts/index.md
       - Fresh year, fresh thoughts: thoughts/fresh-year-fresh-thoughts.md
+  - Bits: bits/index.md
 
 extra:
   social:
