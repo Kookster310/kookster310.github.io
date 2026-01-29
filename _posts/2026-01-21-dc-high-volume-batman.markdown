@@ -20,7 +20,7 @@ An official adaptation of the comics Batman: Year One by writer Frank Miller and
 
 <div class="review-criteria">
 <h3><span class="review-score-label">Voice Acting:</span> <span class="review-score">5/5</span></h3>
-<p>Voice acting is really good as well. All are legit voice actors and I don't see a reason to give it anything under a 10</p>
+<p>Voice acting is really good as well. All are legit voice actors and I don't see a reason to give it anything under a 5</p>
 </div>
 
 <div class="review-criteria">
@@ -30,7 +30,7 @@ An official adaptation of the comics Batman: Year One by writer Frank Miller and
 
 <div class="review-criteria">
 <h3><span class="review-score-label">Story:</span> <span class="review-score">4/5</span></h3>
-<p>I was never the biggest superhero movie fan. Like some of them were okay, but I was always more into sci-fi. But this story is really good and it's easy want to listen to the next episode</p>
+<p>I was never the biggest superhero movie fan. Like some of them were okay, but I was always more into sci-fi. But this story is really good and it's easy to want to listen to the next episode</p>
 </div>
 
 <div class="final-score">
