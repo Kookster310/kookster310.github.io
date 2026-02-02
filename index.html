@@ -1,33 +1,12 @@
----
-layout: blog
----
-<div class="latest-post">
-	{% assign latest_post = nil %}
-	{% for post in site.posts %}
-		{% unless post.category == "Audio Dramas" or post.categories contains "Audio Dramas" %}
-			{% assign latest_post = post %}
-			{% break %}
-		{% endunless %}
-	{% endfor %}
-	{% if latest_post %}
-	<article class="blog-post latest-post-full">
-		<header class="post-header">
-			<h2 class="post-title">{{ latest_post.title }}</h2>
-			<div class="post-meta">
-				<span class="post-date">
-					<i class="fa fa-calendar"></i> {{ latest_post.date | date: "%B %d, %Y" }}
-				</span>
-				{% if latest_post.category %}
-				<span class="post-category">
-					<i class="fa fa-folder"></i> {{ latest_post.category }}
-				</span>
-				{% endif %}
-			</div>
-		</header>
-		
-		<div class="post-content">
-			{{ latest_post.content }}
-		</div>
-	</article>
-	{% endif %}
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting to site...</title>
+    <meta http-equiv="refresh" content="0; url=./docs/">
+    <link rel="canonical" href="./docs/">
+</head>
+<body>
+    <p>Redirecting to <a href="./docs/">the main site</a>...</p>
+</body>
+</html>
