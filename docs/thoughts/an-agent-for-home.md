@@ -1,6 +1,6 @@
 ---
 title: An Agent for Home
-date: 2026-02-03
+date: 2026-02-02
 ---
 
 # An Agent for Home
