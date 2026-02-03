@@ -209,6 +209,24 @@
   margin-bottom: 0;
 }
 
+.about-links {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.about-link {
+  color: #e0e0e0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.about-link:hover {
+  color: #5dade2;
+}
+
 @media (max-width: 1219px) {
   .md-sidebar--secondary {
     display: none;
