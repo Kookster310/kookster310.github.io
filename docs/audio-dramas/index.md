@@ -2,4 +2,5 @@
 
 Things I've listened to.
 
-- **Jan 21, 2026** — [DC High Volume: Batman - Review](dc-high-volume-batman.md)
+- **Feb 2, 2026** — [The Strata](the-strata.md)
+- **Jan 21, 2026** — [DC High Volume: Batman](dc-high-volume-batman.md)
