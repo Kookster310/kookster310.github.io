@@ -5,7 +5,7 @@ from datetime import datetime
 import yaml
 
 
-POST_DIRS = ("projects", "thoughts")
+POST_DIRS = ("posts",)
 POST_PLACEHOLDER = "{{ latest_post }}"
 
 
