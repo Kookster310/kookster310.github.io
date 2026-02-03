@@ -50,7 +50,7 @@ def _load_posts(config):
             "url": post["url"],
             "date_display": post["date_display"],
         }
-        for post in posts
+        for post in posts[:4]
     ]
     config.extra["latest_post"] = posts[0] if posts else None
 
