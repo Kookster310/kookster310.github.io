@@ -27,5 +27,3 @@ Much like the Epstein files, here is a heavily redacted image of an email:
 
 I have some friends and family that use some of the services I self-host.
 The idea behind this was to give them [REDACTED]. I could add a select few users to the "Allowed" list to have them interact with the agent directly. Allowing them to [REDACTED] without needing to reach out to me to [REDACTED] for them.
-
-[local-ai-stack on GitHub](https://github.com/Kookster310/local-ai-stack)

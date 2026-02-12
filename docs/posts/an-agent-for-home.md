@@ -27,5 +27,3 @@ I'll probably post a few more times on this topic. One thing I find interesting 
 In any case "Kooky Agent 007" has its own gmail account now and helped me push this blog post out.
 
 It's weird when I wrote out that last sentence, I originally wrote "has his own gmail account".
-
-https://github.com/Kookster310/local-ai-stack
