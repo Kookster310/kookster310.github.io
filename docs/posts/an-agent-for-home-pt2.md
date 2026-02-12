@@ -1,5 +1,5 @@
 ---
-title: An Agent for Home Part 2: Electic Boogaloo
+title: "An Agent for Home Part 2: Electic Boogaloo"
 date: 2026-02-12
 ---
 
