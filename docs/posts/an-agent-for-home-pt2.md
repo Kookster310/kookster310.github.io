@@ -17,7 +17,7 @@ Now obviously I can't just have any ol' Dick or Harry send my agent an email and
 
 Normally in a business google workspace account, you can set up a blacklist to just delete emails that don't come from a specific person. But I was too cheap to spend the extra money on creating a user for this agent. So after setting up it's free gmail account, I created a filter in Gmail that applied the tag "Allowed" to any email that was received from my personal daniel.ryan@310networks.com email address. After adding the specific instructions to search only for that label in the SKILL.md, I set up an hourly cronjob to ask the agent to check it's inbox for any new tasks and complete them accordingly.
 
-![Agent inbox](../assets/img/agent-inbox.png)
+<img src="../assets/img/agent-inbox.png" alt="Agent inbox" width="800">
 
 I ran some test emails trying to get the agent to run a command from an email other than the ones marked allowed. Each time the email was properly left unread, while the emails labeled "Allowed" were properly processed. So far so good. 
 
