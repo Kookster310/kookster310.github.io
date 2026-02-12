@@ -5,7 +5,7 @@ date: 2018-01-20
 
 # PiHole - Home DNS Server for Ad Blocking and Traffic Analysis
 
-![Pi-hole](../assets/img/services/pi-hole.png)
+![Pi-hole](../assets/img/pi-hole.png)
 
 I'm an avid supporter of home automation. I enjoy making devices smarter and allowing communication across services and devices. Not only to make everyday living easier, but just because it's fun. With all the gadgets and toys around, I wanted to get more insight into what is going on within my network. I decided to grab one of my unused Raspberry Pis and get an internal recursive DNS server going. I could get the information I was looking for and block some unwanted domains in the process.
 
