@@ -19,8 +19,9 @@ Dark and gritty story revolving around the early days of Batman. Overall a reall
 
 ### Story and Overall Enjoyment — 31/40
 
-**Final Score:** 81
+## Final Score — 81
 
-## Link to Audio Drama
+
+### Link to Audio Drama
 
 https://www.dc.com/highvolume
