@@ -4,6 +4,8 @@ Things I've listened to.
 
 | Audio Drama | Score |
 |-------------|-------|
+| [The Strata](the-strata.md) | 82 |
+| [DC High Volume: Batman](dc-high-volume-batman.md) | 81 |
 | [The 100 Handed]() | |
 | [Aftershock]() | |
 | [Alba Salix Royal Physician]() | |
@@ -53,7 +55,6 @@ Things I've listened to.
 | [Star Trek: The Continuing Mission]() | |
 | [Star Trek: The Section 31 Files]() | |
 | [Starship Excelsior: A Star Trek Fan Audio Drama]() | |
-| [The Strata](the-strata.md) | 82 |
 | [Tomorrow's Monsters]() | |
 | [Tumanbay]() | |
 | [Unwell: A Midwestern Gothic]() | |
@@ -66,4 +67,3 @@ Things I've listened to.
 | [The White Vault]() | |
 | [Windfall]() | |
 | [Wooden Overcoats]() | |
-| [DC High Volume: Batman](dc-high-volume-batman.md) | 81 |
