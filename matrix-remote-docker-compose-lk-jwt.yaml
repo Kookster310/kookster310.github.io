@@ -1,0 +1,18 @@
+# Add this service to matrix-remote/docker-compose.yaml on the Pi
+# (merge under services:, e.g. after livekit and before element-call)
+
+  lk-jwt-service:
+    image: ghcr.io/element-hq/lk-jwt-service:latest
+    container_name: matrix-lk-jwt
+    restart: unless-stopped
+    environment:
+      - LIVEKIT_URL=wss://matrixrtc.310networks.com/livekit/sfu
+      - LIVEKIT_KEY=matrix
+      - LIVEKIT_SECRET=b4bbc5cb502c5c64726ea0ceed960f87ac97b8c60c165344fc9cc4807c067d6c
+      - LIVEKIT_FULL_ACCESS_HOMESERVERS=matrix.310networks.com
+    ports:
+      - "8070:8080"
+    networks:
+      - matrix
+    depends_on:
+      - livekit

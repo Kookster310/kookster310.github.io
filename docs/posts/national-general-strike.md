@@ -12,4 +12,4 @@ I don't want to hear "oh she was driving blah blah", or "he shouldn't bring a gu
 Go buy some tacos or fruit from a stand in cash.
 https://nationalshutdown.org/
 
-![Fuck ICE](../assets/img/services/fuckIce.jpeg)
+![Fuck ICE](../assets/img/fuckIce.jpeg)

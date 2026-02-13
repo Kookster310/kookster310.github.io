@@ -5,7 +5,7 @@ date: 2018-01-25
 
 # Crypto Mining - The New-Age 49er
 
-![Crypto mining](../assets/img/services/mining.png)
+![Crypto mining](../assets/img/mining.png)
 
 Mining crypto coins (specifically Monero) utilizing XMR-Stak. Able to mine on Linux and Windows OS.
 

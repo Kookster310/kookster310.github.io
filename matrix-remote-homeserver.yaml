@@ -1,0 +1,54 @@
+# Configuration file for Synapse.
+# Copy this to your Pi's synapse data dir and restart Synapse.
+# On the Pi: sudo cp /tmp/homeserver.yaml.new /path/to/synapse/data/homeserver.yaml
+#
+server_name: "matrix.310networks.com"
+pid_file: /data/homeserver.pid
+listeners:
+  - port: 8008
+    resources:
+      - compress: false
+        names:
+          - client
+          - federation
+    tls: false
+    type: http
+    x_forwarded: true
+database:
+  name: sqlite3
+  args:
+    database: /data/homeserver.db
+log_config: "/data/matrix.310networks.com.log.config"
+media_store_path: /data/media_store
+registration_shared_secret: "5AMCt0OvCpGjbR7Z65ege7DHk:5B@E;as1:DAD*lVX-U2g4~o."
+report_stats: false
+macaroon_secret_key: "NBchtPeKkW*h-U2E4P:P=BajG2LnjZLb5*-3a182sUmRsIzVUx"
+form_secret: "O8xDWIs7YgG9Y2@-to-bmZ5;M*9v0=*7PRDxli&7CMedo5ig4i"
+signing_key_path: "/data/matrix.310networks.com.signing.key"
+trusted_key_servers:
+  - server_name: "matrix.org"
+
+# TURN server for voice/video calls (Element and Element Call).
+# Secret must match coturn's static-auth-secret in coturn/turnserver.conf.
+turn_uris:
+  - "turn:turn.310networks.com:3478?transport=udp"
+  - "turn:turn.310networks.com:3478?transport=tcp"
+  - "turns:turn.310networks.com:5349?transport=tcp"
+turn_shared_secret: "0b92871d47c575663b64f6ded8a8a2872c80db264bd31a99869198d6b44d7188"
+turn_user_lifetime: 86400000
+turn_allow_guests: false
+
+# Element Call (Matrix RTC) – required to fix MISSING_MATRIX_RTC_FOCUS
+experimental_features:
+  msc3266_enabled: true
+  msc4222_enabled: true
+  msc4140_enabled: true
+  max_event_delay_duration: 24h
+  msc_message:
+    per_second: 0.5
+    burst_count: 30
+  src_delayed_event_mgmt:
+    per_second: 1
+    burst_count: 20
+
+# vim:ft=yaml
