@@ -5,7 +5,7 @@ date: 2026-02-12
 
 # Mail Time
 
-Part 1 here: [Part 1](an-agent-for-home.md)
+Part 1 here: [Part 1](/posts/an-agent-for-home/)
 
 Time to extend the workflow to outside of the agent TUI.
 I wanted my agent to start becoming a little more autonomous. Setting up the daemon was a good start, but actually getting it to do things without me sending commands in the terminal is really the next step in all of this. Probably setting up some sort of queue in Redis and having it listen to events is probably the correct way to do things, but that doesn't really feel "human" enough for me. The whole idea behind agents was to have it interact with outside services and such on your behalf, like a human. 
