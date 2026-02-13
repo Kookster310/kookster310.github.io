@@ -21,8 +21,9 @@ Fun listen, I really enjoy the stories from the universe created here. It's had 
 
 ### Story and Overall Enjoyment — 35/40
 
-**Final Score:** 82
+## Final Score — 82
 
-## Link to Audio Drama
+
+### Link to Audio Drama
 
 https://www.thestratapodcast.com/
