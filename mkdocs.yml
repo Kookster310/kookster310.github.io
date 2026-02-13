@@ -17,6 +17,7 @@ nav:
   - Home: index.md
   - Posts:
       - Overview: posts/index.md
+      - "An Agent for Home Part 2": posts/an-agent-for-home-pt2.md
       - An Agent for Home: posts/an-agent-for-home.md
       - National General Strike: posts/national-general-strike.md
       - Fresh year, fresh thoughts: posts/fresh-year-fresh-thoughts.md
