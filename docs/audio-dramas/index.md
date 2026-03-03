@@ -4,6 +4,7 @@ Things I've listened to.
 
 | Audio Drama | Score |
 |-------------|-------|
+| [Edict Zero - FIS](edict-zero-fis.md) | 91 |
 | [The Strata](the-strata.md) | 82 |
 | [DC High Volume: Batman](dc-high-volume-batman.md) | 81 |
 | [The 100 Handed]() | |
@@ -21,7 +22,6 @@ Things I've listened to.
 | [COPPERHEART]() | |
 | [The Dex Legacy]() | |
 | [Doctor Who Audio Dramas]() | |
-| [Edict Zero - FIS]() | |
 | [ElfQuest]() | |
 | [Escape From New York]() | |
 | [Fawx & Stallion]() | |
