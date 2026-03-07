@@ -7,7 +7,7 @@ Things I've listened to.
 | [Edict Zero - FIS](edict-zero-fis.md) | 91 |
 | [The Strata](the-strata.md) | 82 |
 | [DC High Volume: Batman](dc-high-volume-batman.md) | 81 |
-| [The 100 Handed]() | |
+| [The 100 Handed](the-100-handed.md) | 66 |
 | [Aftershock]() | |
 | [Alba Salix Royal Physician]() | |
 | [Batman: The Audio Adventures]() | |
