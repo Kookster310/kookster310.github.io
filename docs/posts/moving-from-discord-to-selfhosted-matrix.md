@@ -34,7 +34,7 @@ Honestly not much else to say here. It took a little trial an error, but once I 
 As the instance is starting to get regular chatter, another issue pokes its head out. Watching large videos in a text channel wasn't working, or so I thought. I had pressed play and nothing was happening. I started looking through my configs and logs, when all of the sudden a couple minutes later I hear the bass thump of electronic dance music. The sample video I was testing had finally started playing.
 
 One nice thing about the Element desktop application is you can enable developer tools in the app. So I pop it open and press play, that's when I see the that Element is downloading the entire video prior to it starting.
-![200MB download](../img/assets/element-dev-tools-video.png)
+![200MB download](../assets/img/element-dev-tools-video.png)
 
 I noticed it was responding with a 200 rather than doing the request in ranges with a 206. So I set up my reverse proxy vhost to allow for 206 calls to the media store, only to find out that [synapse doesn't support 206 range requests](https://github.com/element-hq/synapse/issues/4780). 
 
@@ -71,7 +71,7 @@ So time to come up with a workaround. I decided to have nginx serve the files di
     }
 ```
 
-![206 Range Request](../img/assets/element-dev-tools-rangerequest.png)
+![206 Range Request](../assets/img/element-dev-tools-rangerequest.png)
 
 Voila! Video playback begins as soon as you click play and downloads as you watch accordingly. I did notice some buffering happening on higher bitrate videos though... Upload and download speeds were also quite slow. Which brings me to the next issue I found. An infrastructure issue.
 
