@@ -73,7 +73,9 @@ So time to come up with a workaround. I decided to have nginx serve the files di
 
 ![206 Range Request](../assets/img/element-dev-tools-rangerequest.png)
 
-Voila! Video playback begins as soon as you click play and downloads as you watch accordingly. I did notice some buffering happening on higher bitrate videos though... Upload and download speeds were also quite slow. Which brings me to the next issue I found. An infrastructure issue.
+Voila!
+
+Video playback begins as soon as you click play and downloads as you watch accordingly. I did notice some buffering happening on higher bitrate videos though... Upload and download speeds were also quite slow. Which brings me to the next issue I found. An infrastructure issue.
 
 ### Upload + Download speeds: the hilarious bottleneck in my self hosted architecture
 I started looking into where the slowness was coming from. I ran some curl tests that would download the video and record the transfer rate. I tested locally on the synapse server itself and as to be expected, the download rate was stupid fast. Then I tested from the reverse proxy over the internal network, and oh my was I in for a surprise... Speeds of 20-40 Mbps? Wtf?
