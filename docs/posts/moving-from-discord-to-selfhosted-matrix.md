@@ -31,7 +31,7 @@ So on to Livekit. The good folks at Element-HQ have created a [lk-jwt-service](h
 Honestly not much else to say here. It took a little trial an error, but once I got it configured properly, had the proper ports forwarded, and DNS records created, calls started working.
 
 ### Watching large videos. The 200 vs 206 range request fiasco
-As the instance is starting to get regular chatter, another issue pokes its head out. Watching large videos in a text channel wasn't working, or so I thought. I had pressed play and nothing was happening. I started looking through my configs and logs, when all of the sudden a couple minutes later I hear the bass thump of electronic dance music. The sample video I was testing had finally started playing.
+As the instance is starting to get regular chatter, another issue pokes its head out. Watching large videos in a text channel wasn't working, or so I thought. I pressed play on a 200MB sample video I posted, but nothing happened. I start looking through my configs and logs, when a couple minutes later I hear the bass thump of electronic dance music. The sample video I was testing had finally started playing.
 
 One nice thing about the Element desktop application is you can enable developer tools in the app. So I pop it open and press play, that's when I see the that Element is downloading the entire video prior to it starting.
 ![200MB download](../assets/img/element-dev-tools-video.png)
@@ -75,12 +75,12 @@ So time to come up with a workaround. I decided to have nginx serve the files di
 
 Voila!
 
-Video playback begins as soon as you click play and downloads as you watch accordingly. I did notice some buffering happening on higher bitrate videos though... Upload and download speeds were also quite slow. Which brings me to the next issue I found. An infrastructure issue.
+Video playback begins as soon as you click play and downloads as you watch accordingly. I did notice some buffering happening on higher bitrate videos though... Upload and download speeds were quite slow. Which brings me to the next issue I found. An infrastructure issue.
 
 ### Upload + Download speeds: the hilarious bottleneck in my self hosted architecture
-I started looking into where the slowness was coming from. I ran some curl tests that would download the video and record the transfer rate. I tested locally on the synapse server itself and as to be expected, the download rate was stupid fast. Then I tested from the reverse proxy over the internal network, and oh my was I in for a surprise... Speeds of 20-40 Mbps? Wtf?
+I started looking for where the slowness was occurring. I ran some curl tests that would download the video and record the transfer rate. I tested locally on the synapse server itself, and as to be expected, the download rate was stupid fast. Then I tested from the reverse proxy over the internal network, and oh my was I in for a surprise... Speeds of 20-40 Mbps? Wtf?
 
-I started poking around on the reverse proxy and what I found made me laugh out loud.
+I started poking around on the reverse proxy and what I found made me laugh.
 ```
 kookster@reverse-proxy:~$ ifconfig |grep -B1 10.10
 wlx3c3300600c1d: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -94,13 +94,13 @@ The main reverse proxy I use to route inbound traffic to all of my self hosted s
 
 As my buddy so eloquently put it after telling him: "LOL"
 
-To be honest, I'm quite surprised things have worked as well as they have.
+To be honest, I'm surprised things had worked as well as they had.
 
 The irony of moving over to self hosted solutions in the name of privacy, all the while using some cheap chinese networking dongle is not lost on me. The whole thing was really quite hilarious.
 
-Anyway I go and plug my reverse proxy into my network with an ethernet cable, move all my local DNS records over to the new internal IP, update a few configs, and we are back in business. Suddenly I'm getting 95 Mbps between the reverse proxy and the synapse server. Not the 1Gbps I thought the tiny little SBC could handle, but whatever. Videos weren't buffering anymore and uploading them was much faster. I'll probably upgrade the reverse proxy to something with a gigabit NIC at some point, but I just don't care enough right now.
+Anyway I go and plug my reverse proxy into my network with an ethernet cable, move all my local DNS records over to the new internal IP, update a few configs, and we are back in business. Suddenly I'm getting 95 Mbps between the reverse proxy and the synapse server. It's not the 1Gbps I thought the tiny little SBC would get, but whatever. Videos weren't buffering anymore and uploading them was much faster. I'll probably upgrade the reverse proxy to something with a gigabit NIC at some point, but I just don't care enough right now.
 
-One other issue worth mentioning is the reverse proxy was not using my networks Pihole for DNS resolution. It was using the router and was loading the public IP addresses for all my internal services, creating a hairpin NAT issue. Pointing the reverse proxy to the proper DNS server resolved that issue and increased speeds as well. All this testing had revealed some real issues in my network, and I'm glad they were uncovered.
+One other thing worth mentioning is the reverse proxy was not using my networks Pihole for DNS resolution. It was using the router and was loading the public IP addresses for all my internal services, creating a hairpin NAT issue. Pointing the reverse proxy to the proper DNS server resolved that bottleneck and increased speeds as well. All this testing had revealed some real problems in my network, and I'm glad they were uncovered.
 
 ### Getting people to use it
 This is ***by far*** the hardest part of the entire migration. You can have the best alternative in the world, but if people don't use it, then it doesn't matter. You're just a lonely nerd sitting in your self hosted chat room by yourself, or worst yet with an AI chatbot. Getting people to download [Element](https://element.io) to their desktops and/or mobile phones and actually getting them to open it up and use it instead of Discord was tough.
@@ -111,7 +111,8 @@ Convincing a human to do something is freaking hard.
 
 So how did I get people to actually do it? I didn't, my brother did. All it takes is one other person to jump in, and the rest started following.
 
-I enjoy playing video games from time to time, and the one I typically play while in voice chat is Path of Exile. You don't actually play with other people in POE, you can, but you don't. You just hang out in the same voice channel, talk about the content your running, what your build is looking like, etc. They release new content in the form of a "new league" every few months. So about every 3-4 months, I hop in Discord and catch up with my fellow exiles.
+
+I enjoy playing video games from time to time, and the one I typically play while in voice chat is Path of Exile. You don't actually play with other people in POE. You can, but you don't. You just hang out in the same voice channel, talk about the content your running, what your build is looking like, etc. They release new content in the form of a "new league" every few months. So about every 3-4 months, I hop in Discord and catch up with my fellow exiles.
 
 Leading up to league start day, we'll be chatting in Discord about what build we want to play, what changes were brought into the game, stuff like that. But then my brother posted something in our gaming Discord channel: 
 
