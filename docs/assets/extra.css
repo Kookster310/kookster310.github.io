@@ -1,5 +1,18 @@
 .md-footer-meta {
-  display: none;
+  /* Footer meta visible for disclaimer */
+}
+
+.md-footer-disclaimer {
+  flex: 1;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--md-footer-fg-color--muted);
+  padding: 8px 0;
+}
+
+.md-footer-disclaimer p {
+  margin: 0;
+  line-height: 1.4;
 }
 
 .md-header__button.md-logo {
