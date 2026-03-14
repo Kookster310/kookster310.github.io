@@ -5,6 +5,7 @@ Things I've listened to.
 | Audio Drama | Score |
 |-------------|-------|
 | [Edict Zero - FIS](edict-zero-fis.md) | 91 |
+| [Red Valley](red-valley.md) | 85 |
 | [The Strata](the-strata.md) | 82 |
 | [DC High Volume: Batman](dc-high-volume-batman.md) | 81 |
 | [The 100 Handed](the-100-handed.md) | 66 |
