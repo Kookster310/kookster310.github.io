@@ -15,6 +15,10 @@ With this change in how I write blog posts, I imagine it will also change how th
 
 *This blog post was handwritten in ink, then transcribed by AI*
 
-**Handwritten pages:**
-[![Page 1](../../assets/img/handwritten/thumb-handwritten-20260505-202220-page1.jpg)](../../assets/img/handwritten/handwritten-20260505-202220-page1.jpg)
-[![Page 2](../../assets/img/handwritten/thumb-handwritten-20260505-202220-page2.jpg)](../../assets/img/handwritten/handwritten-20260505-202220-page2.jpg)
+<div style="display: flex; gap: 10px;">
+
+[![Page 1](../../assets/img/handwritten/thumb-handwritten-20260505-202220-page1.jpg){:width="200px"}](../../assets/img/handwritten/handwritten-20260505-202220-page1.jpg)
+
+[![Page 2](../../assets/img/handwritten/thumb-handwritten-20260505-202220-page2.jpg){:width="200px"}](../../assets/img/handwritten/handwritten-20260505-202220-page2.jpg)
+
+</div>
