@@ -17,8 +17,8 @@ With this change in how I write blog posts, I imagine it will also change how th
 
 <div style="display: flex; gap: 10px;">
 
-[![Page 1](../../assets/img/handwritten/thumb-handwritten-20260505-202220-page1.jpg){:width="200px"}](../../assets/img/handwritten/handwritten-20260505-202220-page1.jpg)
+<a href="../../assets/img/handwritten/handwritten-20260505-202220-page1.jpg"><img src="../../assets/img/handwritten/thumb-handwritten-20260505-202220-page1.jpg" alt="Page 1" width="200"></a>
 
-[![Page 2](../../assets/img/handwritten/thumb-handwritten-20260505-202220-page2.jpg){:width="200px"}](../../assets/img/handwritten/handwritten-20260505-202220-page2.jpg)
+<a href="../../assets/img/handwritten/handwritten-20260505-202220-page2.jpg"><img src="../../assets/img/handwritten/thumb-handwritten-20260505-202220-page2.jpg" alt="Page 2" width="200"></a>
 
 </div>
