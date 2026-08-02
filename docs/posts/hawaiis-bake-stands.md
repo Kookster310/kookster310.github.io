@@ -9,7 +9,7 @@ A little wooden shed with an "OPEN" flag waving sits off the side of a neighborh
 
 We've been living on the Big Island of Hawaii for a little over 4 years now. The eastern side of the Island gets a ton of rain, the most among any state in the US. From downpours to sunny skies with drizzling rain, we get it all. This makes for awesome vegetation, along with all the tropical fruits the island is known for. So seeing fruit and vegetable stands outside people's homes is pretty common. The "lettuce lady" down the street from me has really good leafy green lettuce, and it's cheaper than the town's Safeway grocery store. Hilo and Puna have great farmers' markets as well.
 
-But recently a new type of stand has been popping up: the Bake Stand.
+But recently a new type of stand has appearing: the Bake Stand.
 
 ![Papa's Kanae Attack Shack](../assets/img/hawaii-bake-stands/bakestand2.jpg)
 
