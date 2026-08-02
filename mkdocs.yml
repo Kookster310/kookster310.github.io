@@ -17,6 +17,7 @@ nav:
   - Home: index.md
   - Posts:
       - Overview: posts/index.md
+      - Hawaii's Bake Stands: posts/hawaiis-bake-stands.md
       - I'm Now "Writing" My Blog: posts/im-now-writing-my-blog.md
       - "An Agent for Home Part 2": posts/an-agent-for-home-pt2.md
       - An Agent for Home: posts/an-agent-for-home.md
