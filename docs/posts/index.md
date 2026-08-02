@@ -2,6 +2,7 @@
 
 Projects, thoughts, and random musings all in one place.
 
+- **Aug 01, 2026** — [Hawaii's Big Island](hawaiis-big-island.md)
 - **May 05, 2026** — [I'm Now "Writing" My Blog](im-now-writing-my-blog.md)
 - **Mar 10, 2026** — [Moving from Discord to a self hosted Matrix Server](moving-from-discord-to-selfhosted-matrix.md)
 - **Feb 02, 2026** — [An Agent for Home](an-agent-for-home.md)
