@@ -3,7 +3,7 @@ title: "Hawaii's Bake Stands"
 date: 2026-08-01
 ---
 
-A little wooden shed with an "OPEN" flag waving greets you as you pull your car over onto the gravel and grass. Personal apple pies, cookies, brownies, all freshly baked. There are even some full hot meals.
+A little wooden shed with an "OPEN" flag waving sits off the side of a neighborhood road. You pull your car over onto the gravel and grass and are greeted with personal apple pies, cookies, and brownies, all freshly baked. There are even some hot meals and freshly squeezed lemonade.
 
 ![9 Acres](../assets/img/hawaii-bake-stands/9-acres.jpg)
 
