@@ -1,5 +1,5 @@
 ---
-title: "Hawaii's Big Island"
+title: "Hawaii's Bake Stands"
 date: 2026-08-01
 ---
 
