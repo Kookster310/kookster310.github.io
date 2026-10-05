@@ -19,7 +19,7 @@ nav:
       - Overview: posts/index.md
       - Hawaii's Bake Stands: posts/hawaiis-bake-stands.md
       - I'm Now "Writing" My Blog: posts/im-now-writing-my-blog.md
-      - "An Agent for Home Part 2": posts/an-agent-for-home-pt2.md
+      - Moving from Discord to a self hosted Matrix Server: posts/moving-from-discord-to-selfhosted-matrix.md
       - An Agent for Home: posts/an-agent-for-home.md
       - National General Strike: posts/national-general-strike.md
       - Fresh year, fresh thoughts: posts/fresh-year-fresh-thoughts.md
@@ -30,7 +30,11 @@ nav:
       - PiHole - Home DNS Server for Ad Blocking and Traffic Analysis: posts/pi-hole-home-dns.md
   - Audio Dramas:
       - Overview: audio-dramas/index.md
+      - Edict Zero - FIS: audio-dramas/edict-zero-fis.md
+      - Red Valley: audio-dramas/red-valley.md
+      - The Strata: audio-dramas/the-strata.md
       - "DC High Volume: Batman - Review": audio-dramas/dc-high-volume-batman.md
+      - The 100 Handed: audio-dramas/the-100-handed.md
   - Bits: bits/index.md
 
 extra:

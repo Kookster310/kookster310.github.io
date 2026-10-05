@@ -5,22 +5,22 @@ date: 2026-08-01
 
 A little wooden shed with an "OPEN" flag waving sits off the side of a neighborhood road. You pull your car over onto the gravel and grass and are greeted with personal apple pies, cookies, and brownies, all freshly baked. There are even some hot meals and freshly squeezed lemonade.
 
-![9 Acres](../assets/img/hawaii-bake-stands/9-acres.jpg)
+![9 Acres](/assets/img/hawaii-bake-stands/9-acres.jpg)
 
 We've been living on the Big Island of Hawaii for a little over 4 years now. The eastern side of the Island gets a ton of rain, the most among any state in the US. From downpours to sunny skies with drizzling rain, we get it all. This makes for awesome vegetation, along with all the tropical fruits the island is known for. So seeing fruit and vegetable stands outside people's homes is pretty common. The "lettuce lady" down the street from me has really good leafy green lettuce, and it's cheaper than the town's Safeway grocery store. Hilo and Puna have great farmers' markets as well.
 
 But recently a new type of stand has appearing: the Bake Stand.
 
-![Papa's Kanae Attack Shack](../assets/img/hawaii-bake-stands/bakestand2.jpg)
+![Papa's Kanae Attack Shack](/assets/img/hawaii-bake-stands/bakestand2.jpg)
 
 These bake stands have been popping up all over. There are at least 4 that I've counted on the way to dropping my son off for daycare. Each of these stands will have an assortment of homemade goodies, from cookies and brownies, to pies and cheesecakes. As I mentioned earlier, some of them have full on hot meals in heated serving trays.
 9 Acres Farmstand is a bake stand in my neighborhood that is owned and run by a southern lady. She has some great shrimp po' boys and beignets. The prices are very reasonable, cheaper than going to a bakery or restaurant.
 
-![Marie's Bakesstand](../assets/img/hawaii-bake-stands/bakestand3.jpg)
+![Marie's Bakesstand](/assets/img/hawaii-bake-stands/bakestand3.jpg)
 
 One of the things I enjoy most about living on the Big Island is its pace, affectionately known as "island time." People, for the most part, go through life a little more deliberately, more slowly, intuitively. Pulling over and talking to walking neighbors, giving rides to disabled hitchhikers, or setting up unsupervised stands with freshly made treats and a QR code for Venmo or a cash lock box. I'm not totally sure you could be as trusting in larger metropolitan cities.
 
-![Bake stand](../assets/img/hawaii-bake-stands/bakestand1.jpg)
+![Bake stand](/assets/img/hawaii-bake-stands/bakestand1.jpg)
 
 Though it would be nice to see this trend start to spread.
 
@@ -28,8 +28,8 @@ Though it would be nice to see this trend start to spread.
 
 <div style="display: flex; gap: 10px;">
 
-<a href="../../assets/img/handwritten/handwritten-20260801-200440-page1.jpg"><img src="../../assets/img/handwritten/thumb-handwritten-20260801-200440-page1.jpg" alt="Page 1" width="200"></a>
+<a href="/assets/img/handwritten/handwritten-20260801-200440-page1.jpg"><img src="/assets/img/handwritten/thumb-handwritten-20260801-200440-page1.jpg" alt="Page 1" width="200"></a>
 
-<a href="../../assets/img/handwritten/handwritten-20260801-200440-page2.jpg"><img src="../../assets/img/handwritten/thumb-handwritten-20260801-200440-page2.jpg" alt="Page 2" width="200"></a>
+<a href="/assets/img/handwritten/handwritten-20260801-200440-page2.jpg"><img src="/assets/img/handwritten/thumb-handwritten-20260801-200440-page2.jpg" alt="Page 2" width="200"></a>
 
 </div>
