@@ -23,7 +23,7 @@ On the Pi, edit `matrix-remote/docker-compose.yaml` and add this service (and ad
     environment:
       - LIVEKIT_URL=wss://matrixrtc.310networks.com/livekit/sfu
       - LIVEKIT_KEY=matrix
-      - LIVEKIT_SECRET=b4bbc5cb502c5c64726ea0ceed960f87ac97b8c60c165344fc9cc4807c067d6c
+      - LIVEKIT_SECRET=your-livekit-secret-here  # must match the key in livekit/livekit.yaml (never commit the real secret)
       - LIVEKIT_FULL_ACCESS_HOMESERVERS=matrix.310networks.com
     ports:
       - "8070:8080"

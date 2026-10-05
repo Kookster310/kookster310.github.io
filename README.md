@@ -6,16 +6,18 @@ This site is built with **MkDocs + Material** and deployed to GitHub Pages via G
 
 Create a new Markdown file in the appropriate section:
 
-- `docs/projects/` for project posts
+- `docs/posts/` for posts
 - `docs/audio-dramas/` for audio drama reviews
-- `docs/thoughts/` for thoughts
 
-Then add a link to the new post on the corresponding index page:
+Then:
 
-- `docs/index.md` (home page, excludes Audio Dramas)
-- `docs/projects/index.md`
-- `docs/audio-dramas/index.md`
-- `docs/thoughts/index.md`
+1. Add an entry to the `nav:` section in `mkdocs.yml`
+2. Add a link to the new post on the corresponding index page:
+   - `docs/posts/index.md`
+   - `docs/audio-dramas/index.md`
+
+The home page (`docs/index.md`) automatically shows the latest post via
+`hooks.py`, so no manual work is needed there.
 
 ## Local Preview
 
@@ -36,6 +38,9 @@ mkdocs build
 - `mkdocs.yml` - Site configuration and navigation
 - `docs/` - All site content
 - `docs/assets/` - Images and custom CSS
+- `docs/overrides/` - Template overrides (nav, toc, footer)
+- `hooks.py` - Injects the latest post onto the home page and feeds the "Recent Posts" sidebar
+- `matrix-remote-*` - Reference configs/docs for the self-hosted Matrix server (not served by this site)
 - `.github/workflows/mkdocs.yml` - GitHub Pages deploy workflow
 
 ## Live Site
